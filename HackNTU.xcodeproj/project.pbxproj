@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD742641AECDCF30081F3A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD742631AECDCF30081F3A3 /* main.m */; };
+		FAD742671AECDCF30081F3A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD742661AECDCF30081F3A3 /* AppDelegate.m */; };
+		FAD7426A1AECDCF30081F3A3 /* HackNTU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAD742681AECDCF30081F3A3 /* HackNTU.xcdatamodeld */; };
+		FAD7426D1AECDCF30081F3A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD7426C1AECDCF30081F3A3 /* ViewController.m */; };
+		FAD742701AECDCF30081F3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD7426E1AECDCF30081F3A3 /* Main.storyboard */; };
+		FAD742721AECDCF30081F3A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD742711AECDCF30081F3A3 /* Images.xcassets */; };
+		FAD742751AECDCF30081F3A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD742731AECDCF30081F3A3 /* LaunchScreen.xib */; };
+		FAD742811AECDCF30081F3A3 /* HackNTUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD742801AECDCF30081F3A3 /* HackNTUTests.m */; };
+		FAD742AA1AECDF460081F3A3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742A81AECDF460081F3A3 /* Parse.framework */; };
+		FAD742AB1AECDF460081F3A3 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742A91AECDF460081F3A3 /* ParseFacebookUtils.framework */; };
+		FAD742B61AECE05A0081F3A3 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742B51AECE05A0081F3A3 /* FacebookSDK.framework */; };
+		FAD742BB1AECE0AA0081F3A3 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742BA1AECE0AA0081F3A3 /* Firebase.framework */; };
+		FAD742C01AECE1010081F3A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742BF1AECE1010081F3A3 /* QuartzCore.framework */; };
+		FAD742E31AECE3FC0081F3A3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742E21AECE3FC0081F3A3 /* Bolts.framework */; };
+		FAD742E51AECE4060081F3A3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742E41AECE4060081F3A3 /* MapKit.framework */; };
+		FAD742E71AECE40E0081F3A3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742E61AECE40E0081F3A3 /* ImageIO.framework */; };
+		FAD742E91AECE41A0081F3A3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742E81AECE41A0081F3A3 /* Accounts.framework */; };
+		FAD742EB1AECE4210081F3A3 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742EA1AECE4210081F3A3 /* Twitter.framework */; };
+		FAD742ED1AECE42F0081F3A3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742EC1AECE42F0081F3A3 /* Social.framework */; };
+		FAD742EF1AECE43E0081F3A3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742EE1AECE43E0081F3A3 /* CoreTelephony.framework */; };
+		FAD742F11AECE4490081F3A3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742F01AECE4490081F3A3 /* MessageUI.framework */; };
+		FAD742F31AECE4580081F3A3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742F21AECE4580081F3A3 /* MobileCoreServices.framework */; };
+		FAD742F51AECE4640081F3A3 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742F41AECE4640081F3A3 /* libz.1.1.3.dylib */; };
+		FAD742F71AECE46E0081F3A3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742F61AECE46E0081F3A3 /* CoreLocation.framework */; };
+		FAD742F91AECE4780081F3A3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742F81AECE4780081F3A3 /* AudioToolbox.framework */; };
+		FAD742FB1AECE4860081F3A3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742FA1AECE4860081F3A3 /* SystemConfiguration.framework */; };
+		FAD742FD1AECE48F0081F3A3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742FC1AECE48F0081F3A3 /* Security.framework */; };
+		FAD742FF1AECE4970081F3A3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD742FE1AECE4970081F3A3 /* CFNetwork.framework */; };
+		FAD743011AECE4A40081F3A3 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD743001AECE4A40081F3A3 /* libc++.dylib */; };
+		FAD743031AECE4CE0081F3A3 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD743021AECE4CE0081F3A3 /* libicucore.dylib */; };
+		FAD743051AECE4D90081F3A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD743041AECE4D90081F3A3 /* Foundation.framework */; };
+		FAD743071AECE4E20081F3A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD743061AECE4E20081F3A3 /* CoreGraphics.framework */; };
+		FAD743091AECE4F00081F3A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD743081AECE4F00081F3A3 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD7427B1AECDCF30081F3A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD742561AECDCF30081F3A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD7425D1AECDCF30081F3A3;
+			remoteInfo = HackNTU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD7425E1AECDCF30081F3A3 /* HackNTU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackNTU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD742621AECDCF30081F3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD742631AECDCF30081F3A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD742651AECDCF30081F3A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAD742661AECDCF30081F3A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAD742691AECDCF30081F3A3 /* HackNTU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackNTU.xcdatamodel; sourceTree = "<group>"; };
+		FAD7426B1AECDCF30081F3A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAD7426C1AECDCF30081F3A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAD7426F1AECDCF30081F3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD742711AECDCF30081F3A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAD742741AECDCF30081F3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAD7427A1AECDCF30081F3A3 /* HackNTUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackNTUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD7427F1AECDCF30081F3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD742801AECDCF30081F3A3 /* HackNTUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackNTUTests.m; sourceTree = "<group>"; };
+		FAD742A81AECDF460081F3A3 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = HackNTU/Parse.framework; sourceTree = "<group>"; };
+		FAD742A91AECDF460081F3A3 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = HackNTU/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		FAD742B51AECE05A0081F3A3 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = HackNTU/FacebookSDK.framework; sourceTree = "<group>"; };
+		FAD742BA1AECE0AA0081F3A3 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = HackNTU/Firebase.framework; sourceTree = "<group>"; };
+		FAD742BF1AECE1010081F3A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAD742E21AECE3FC0081F3A3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = HackNTU/Bolts.framework; sourceTree = "<group>"; };
+		FAD742E41AECE4060081F3A3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FAD742E61AECE40E0081F3A3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FAD742E81AECE41A0081F3A3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		FAD742EA1AECE4210081F3A3 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		FAD742EC1AECE42F0081F3A3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FAD742EE1AECE43E0081F3A3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FAD742F01AECE4490081F3A3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FAD742F21AECE4580081F3A3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FAD742F41AECE4640081F3A3 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		FAD742F61AECE46E0081F3A3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FAD742F81AECE4780081F3A3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FAD742FA1AECE4860081F3A3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAD742FC1AECE48F0081F3A3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FAD742FE1AECE4970081F3A3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FAD743001AECE4A40081F3A3 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FAD743021AECE4CE0081F3A3 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FAD743041AECE4D90081F3A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAD743061AECE4E20081F3A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAD743081AECE4F00081F3A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD7425B1AECDCF30081F3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD743091AECE4F00081F3A3 /* UIKit.framework in Frameworks */,
+				FAD743071AECE4E20081F3A3 /* CoreGraphics.framework in Frameworks */,
+				FAD743051AECE4D90081F3A3 /* Foundation.framework in Frameworks */,
+				FAD743031AECE4CE0081F3A3 /* libicucore.dylib in Frameworks */,
+				FAD743011AECE4A40081F3A3 /* libc++.dylib in Frameworks */,
+				FAD742FF1AECE4970081F3A3 /* CFNetwork.framework in Frameworks */,
+				FAD742FD1AECE48F0081F3A3 /* Security.framework in Frameworks */,
+				FAD742FB1AECE4860081F3A3 /* SystemConfiguration.framework in Frameworks */,
+				FAD742F91AECE4780081F3A3 /* AudioToolbox.framework in Frameworks */,
+				FAD742F71AECE46E0081F3A3 /* CoreLocation.framework in Frameworks */,
+				FAD742F51AECE4640081F3A3 /* libz.1.1.3.dylib in Frameworks */,
+				FAD742F31AECE4580081F3A3 /* MobileCoreServices.framework in Frameworks */,
+				FAD742F11AECE4490081F3A3 /* MessageUI.framework in Frameworks */,
+				FAD742EF1AECE43E0081F3A3 /* CoreTelephony.framework in Frameworks */,
+				FAD742ED1AECE42F0081F3A3 /* Social.framework in Frameworks */,
+				FAD742EB1AECE4210081F3A3 /* Twitter.framework in Frameworks */,
+				FAD742E91AECE41A0081F3A3 /* Accounts.framework in Frameworks */,
+				FAD742E71AECE40E0081F3A3 /* ImageIO.framework in Frameworks */,
+				FAD742E51AECE4060081F3A3 /* MapKit.framework in Frameworks */,
+				FAD742E31AECE3FC0081F3A3 /* Bolts.framework in Frameworks */,
+				FAD742C01AECE1010081F3A3 /* QuartzCore.framework in Frameworks */,
+				FAD742BB1AECE0AA0081F3A3 /* Firebase.framework in Frameworks */,
+				FAD742B61AECE05A0081F3A3 /* FacebookSDK.framework in Frameworks */,
+				FAD742AA1AECDF460081F3A3 /* Parse.framework in Frameworks */,
+				FAD742AB1AECDF460081F3A3 /* ParseFacebookUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD742771AECDCF30081F3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD742551AECDCF30081F3A3 = {
+			isa = PBXGroup;
+			children = (
+				FAD742601AECDCF30081F3A3 /* HackNTU */,
+				FAD7427D1AECDCF30081F3A3 /* HackNTUTests */,
+				FAD7425F1AECDCF30081F3A3 /* Products */,
+				FAD743081AECE4F00081F3A3 /* UIKit.framework */,
+				FAD743061AECE4E20081F3A3 /* CoreGraphics.framework */,
+				FAD743041AECE4D90081F3A3 /* Foundation.framework */,
+				FAD743021AECE4CE0081F3A3 /* libicucore.dylib */,
+				FAD743001AECE4A40081F3A3 /* libc++.dylib */,
+				FAD742FE1AECE4970081F3A3 /* CFNetwork.framework */,
+				FAD742FC1AECE48F0081F3A3 /* Security.framework */,
+				FAD742FA1AECE4860081F3A3 /* SystemConfiguration.framework */,
+				FAD742F81AECE4780081F3A3 /* AudioToolbox.framework */,
+				FAD742F61AECE46E0081F3A3 /* CoreLocation.framework */,
+				FAD742F41AECE4640081F3A3 /* libz.1.1.3.dylib */,
+				FAD742F21AECE4580081F3A3 /* MobileCoreServices.framework */,
+				FAD742F01AECE4490081F3A3 /* MessageUI.framework */,
+				FAD742EE1AECE43E0081F3A3 /* CoreTelephony.framework */,
+				FAD742EC1AECE42F0081F3A3 /* Social.framework */,
+				FAD742EA1AECE4210081F3A3 /* Twitter.framework */,
+				FAD742E81AECE41A0081F3A3 /* Accounts.framework */,
+				FAD742E61AECE40E0081F3A3 /* ImageIO.framework */,
+				FAD742E41AECE4060081F3A3 /* MapKit.framework */,
+				FAD742E21AECE3FC0081F3A3 /* Bolts.framework */,
+				FAD742BF1AECE1010081F3A3 /* QuartzCore.framework */,
+				FAD742BA1AECE0AA0081F3A3 /* Firebase.framework */,
+				FAD742B51AECE05A0081F3A3 /* FacebookSDK.framework */,
+				FAD742A81AECDF460081F3A3 /* Parse.framework */,
+				FAD742A91AECDF460081F3A3 /* ParseFacebookUtils.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD7425F1AECDCF30081F3A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7425E1AECDCF30081F3A3 /* HackNTU.app */,
+				FAD7427A1AECDCF30081F3A3 /* HackNTUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD742601AECDCF30081F3A3 /* HackNTU */ = {
+			isa = PBXGroup;
+			children = (
+				FAD742651AECDCF30081F3A3 /* AppDelegate.h */,
+				FAD742661AECDCF30081F3A3 /* AppDelegate.m */,
+				FAD7426B1AECDCF30081F3A3 /* ViewController.h */,
+				FAD7426C1AECDCF30081F3A3 /* ViewController.m */,
+				FAD7426E1AECDCF30081F3A3 /* Main.storyboard */,
+				FAD742711AECDCF30081F3A3 /* Images.xcassets */,
+				FAD742731AECDCF30081F3A3 /* LaunchScreen.xib */,
+				FAD742681AECDCF30081F3A3 /* HackNTU.xcdatamodeld */,
+				FAD742611AECDCF30081F3A3 /* Supporting Files */,
+			);
+			path = HackNTU;
+			sourceTree = "<group>";
+		};
+		FAD742611AECDCF30081F3A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD742621AECDCF30081F3A3 /* Info.plist */,
+				FAD742631AECDCF30081F3A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD7427D1AECDCF30081F3A3 /* HackNTUTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD742801AECDCF30081F3A3 /* HackNTUTests.m */,
+				FAD7427E1AECDCF30081F3A3 /* Supporting Files */,
+			);
+			path = HackNTUTests;
+			sourceTree = "<group>";
+		};
+		FAD7427E1AECDCF30081F3A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7427F1AECDCF30081F3A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD7425D1AECDCF30081F3A3 /* HackNTU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD742841AECDCF30081F3A3 /* Build configuration list for PBXNativeTarget "HackNTU" */;
+			buildPhases = (
+				FAD7425A1AECDCF30081F3A3 /* Sources */,
+				FAD7425B1AECDCF30081F3A3 /* Frameworks */,
+				FAD7425C1AECDCF30081F3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackNTU;
+			productName = HackNTU;
+			productReference = FAD7425E1AECDCF30081F3A3 /* HackNTU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD742791AECDCF30081F3A3 /* HackNTUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD742871AECDCF30081F3A3 /* Build configuration list for PBXNativeTarget "HackNTUTests" */;
+			buildPhases = (
+				FAD742761AECDCF30081F3A3 /* Sources */,
+				FAD742771AECDCF30081F3A3 /* Frameworks */,
+				FAD742781AECDCF30081F3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD7427C1AECDCF30081F3A3 /* PBXTargetDependency */,
+			);
+			name = HackNTUTests;
+			productName = HackNTUTests;
+			productReference = FAD7427A1AECDCF30081F3A3 /* HackNTUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD742561AECDCF30081F3A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FAD7425D1AECDCF30081F3A3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FAD742791AECDCF30081F3A3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FAD7425D1AECDCF30081F3A3;
+					};
+				};
+			};
+			buildConfigurationList = FAD742591AECDCF30081F3A3 /* Build configuration list for PBXProject "HackNTU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD742551AECDCF30081F3A3;
+			productRefGroup = FAD7425F1AECDCF30081F3A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD7425D1AECDCF30081F3A3 /* HackNTU */,
+				FAD742791AECDCF30081F3A3 /* HackNTUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD7425C1AECDCF30081F3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD742701AECDCF30081F3A3 /* Main.storyboard in Resources */,
+				FAD742751AECDCF30081F3A3 /* LaunchScreen.xib in Resources */,
+				FAD742721AECDCF30081F3A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD742781AECDCF30081F3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD7425A1AECDCF30081F3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD742671AECDCF30081F3A3 /* AppDelegate.m in Sources */,
+				FAD742641AECDCF30081F3A3 /* main.m in Sources */,
+				FAD7426D1AECDCF30081F3A3 /* ViewController.m in Sources */,
+				FAD7426A1AECDCF30081F3A3 /* HackNTU.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD742761AECDCF30081F3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD742811AECDCF30081F3A3 /* HackNTUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD7427C1AECDCF30081F3A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD7425D1AECDCF30081F3A3 /* HackNTU */;
+			targetProxy = FAD7427B1AECDCF30081F3A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD7426E1AECDCF30081F3A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD7426F1AECDCF30081F3A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD742731AECDCF30081F3A3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD742741AECDCF30081F3A3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD742821AECDCF30081F3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAD742831AECDCF30081F3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD742851AECDCF30081F3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackNTU",
+				);
+				INFOPLIST_FILE = HackNTU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAD742861AECDCF30081F3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackNTU",
+				);
+				INFOPLIST_FILE = HackNTU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAD742881AECDCF30081F3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackNTUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackNTU.app/HackNTU";
+			};
+			name = Debug;
+		};
+		FAD742891AECDCF30081F3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackNTUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackNTU.app/HackNTU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD742591AECDCF30081F3A3 /* Build configuration list for PBXProject "HackNTU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD742821AECDCF30081F3A3 /* Debug */,
+				FAD742831AECDCF30081F3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD742841AECDCF30081F3A3 /* Build configuration list for PBXNativeTarget "HackNTU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD742851AECDCF30081F3A3 /* Debug */,
+				FAD742861AECDCF30081F3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD742871AECDCF30081F3A3 /* Build configuration list for PBXNativeTarget "HackNTUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD742881AECDCF30081F3A3 /* Debug */,
+				FAD742891AECDCF30081F3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAD742681AECDCF30081F3A3 /* HackNTU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAD742691AECDCF30081F3A3 /* HackNTU.xcdatamodel */,
+			);
+			currentVersion = FAD742691AECDCF30081F3A3 /* HackNTU.xcdatamodel */;
+			path = HackNTU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAD742561AECDCF30081F3A3 /* Project object */;
+}
